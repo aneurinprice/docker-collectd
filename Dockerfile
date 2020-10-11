@@ -6,6 +6,7 @@ RUN set -eux; \
 		collectd\
 		eudev-dev\
 		libatasmart\
-		lm-sensors
+		lm-sensors\
+		openipmi
 
 CMD /usr/sbin/collectd
