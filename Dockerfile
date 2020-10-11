@@ -5,6 +5,7 @@ RUN set -eux; \
 	apk add --no-cache\
 		collectd\
 		eudev-dev\
-		libatasmart
+		libatasmart\
+		lm-sensors
 
 CMD /usr/sbin/collectd
