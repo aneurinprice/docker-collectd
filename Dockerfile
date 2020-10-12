@@ -9,11 +9,7 @@ RUN set -eux; \
 		collectd-network\
 		collectd-ping\
 		collectd-sensors\
-		eudev-dev\
-		libatasmart\
 		lm-sensors\
 		openipmi
-
-COPY src/* /usr/lib/collectd/
 
 CMD /usr/sbin/collectd -f
