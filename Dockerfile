@@ -14,4 +14,6 @@ RUN set -eux; \
 		lm-sensors\
 		openipmi
 
+COPY src/* /usr/lib/collectd/
+
 CMD /usr/sbin/collectd
