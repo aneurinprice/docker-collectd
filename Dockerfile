@@ -16,4 +16,4 @@ RUN set -eux; \
 
 COPY src/* /usr/lib/collectd/
 
-CMD /usr/sbin/collectd
+CMD /usr/sbin/collectd -f
